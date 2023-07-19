@@ -1,17 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .nav {
+    background: #FFF;
     display: flex;
     justify-content: space-between;
-    margin: 2.81rem 15rem;
+}
+
+.name {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+span {
+    color: #FF42A5;
 }
 
 .logo-section {
     display: flex;
-    align-items: center;
+    padding: 2.75rem 5rem 0.5rem 10rem;
+
 }
+
+.logo {
+    padding-top: 0.9rem;
+}
+
+.nav-link-section {
+    padding: 3.4rem 1rem 3rem 17.5rem;
+}
+
 
 .nav-link-section li {
     list-style: none;
-    margin: 0.63rem;
+    padding: 0.6rem;
 }
 
 .nav-link-section a {
@@ -20,9 +45,8 @@
 
 .nav-link-section ul {
     display: flex;
+    gap: 1rem;
 }
-
-.nav-link-section {}
 
 .logo {
     padding-right: 1.2rem;
@@ -36,12 +60,80 @@
 .follow {
     background-color: rgba(11, 2, 35, 0.10);
     border-radius: 8px;
+    text-align: center;
     width: 100%;
+    padding-top: 0.5rem;
 }
 
+/* nav style end */
 
+.play {
+    display: flex;
+    /* justify-content: space-evenly; */
+}
 
+.play-info {
+    text-align: center;
+    width: 57rem;
+    background-image: url("images/Group\ 14.png");
+    background-size: 100%;
+    /* padding: 148px 309px 148px 244px; */
+    padding: 5rem 9rem 10rem 9rem;
+    /* align-items: center; */
+    background-repeat: no-repeat;
+}
 
+.play-like {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.goat {
+    color: #C44FCF;
+    text-align: center;
+    font-size: 5.93rem;
+    font-weight: 800;
+}
+
+.common-play {
+    color: #534C64;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.btn-primary {
+    border-radius: 3rem;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.6rem 2.4rem;
+}
+
+.btn-two {
+    border-radius: 3rem;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0.6rem 2.4rem;
+}
+
+.people-play {
+    width: 80%;
+}
+
+.home-play {
+    height: 670px;
+    width: 710px;
+}
 
 
 
@@ -65,11 +157,16 @@
         flex-direction: column;
         width: 100%;
     }
+
+    .logo-section {
+        padding-left: 20rem;
+    }
 }
 
 /* resposive for medium device */
-@media screen (min-width:641px)and (max-width:1023px) {
+@media screen and (min-width:641px)and (max-width:1023px) {
     .nav {
+        flex-direction: column;
         align-items: center;
     }
 
