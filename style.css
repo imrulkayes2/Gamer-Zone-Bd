@@ -133,6 +133,51 @@ span {
     padding: 20px 70px 0px 10px;
 }
 
+/* Online games section style */
+.online-games-info {
+    text-align: center;
+    align-items: center;
+    padding: 60px 310px 24px 310px;
+}
+
+.online-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-games-info span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    padding: 24px 100px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
 
 
 
@@ -174,18 +219,11 @@ span {
     }
 }
 
-/* Online games section style */
-.online-games-info {
-    text-align: center;
-    align-items: center;
-    padding: 60px 310px 24px 310px;
-}
 
-.card {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 10px;
-}
+
+
+
+
 
 
 
@@ -208,7 +246,7 @@ span {
 
     .play-info {
         justify-content: center;
-        background-size: cover;
+        background-size: 100%;
         width: 100%;
         order: 1;
     }

@@ -1,0 +1,55 @@
+/* resposive for small device */
+@media screen and (max-width:640px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link-section ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .logo-section {
+        padding-left: 10rem;
+    }
+
+    .banner {
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .play-info {
+        text-align: center;
+        align-items: center;
+        background-size: cover;
+        width: 100%;
+        order: 1;
+    }
+}
+
+
+/* resposive for medium device */
+@media screen and (min-width:641px)and (max-width:1023px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-link-section ul {
+        width: 100%;
+    }
+
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+    }
+
+    .play-info {
+        justify-content: center;
+        background-size: 100%;
+        width: 100%;
+        order: 1;
+    }
+}
