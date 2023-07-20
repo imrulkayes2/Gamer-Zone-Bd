@@ -179,16 +179,6 @@ span {
     font-weight: 500;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* resposive for small device */
 @media screen and (max-width:640px) {
     .nav {
@@ -219,13 +209,9 @@ span {
     }
 }
 
-
-
-
-
-
-
-
+.online-games-info {
+    width: 100%;
+}
 
 /* resposive for medium device */
 @media screen and (min-width:641px)and (max-width:1023px) {
