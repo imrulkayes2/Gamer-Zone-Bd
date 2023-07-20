@@ -52,35 +52,29 @@ span {
     padding-right: 1.2rem;
 }
 
-.nav i .fa-brands fa-youtube {
-    font-size: 24px;
-    color: red;
-}
-
 .follow {
     background-color: rgba(11, 2, 35, 0.10);
     border-radius: 8px;
     text-align: center;
     width: 100%;
-    padding-top: 0.5rem;
+    padding-top: 1rem;
+    place-items: center;
 }
 
 /* nav style end */
 
-.play {
+.banner {
     display: flex;
     /* justify-content: space-evenly; */
 }
 
 .play-info {
     text-align: center;
-    width: 57rem;
+    width: 60rem;
     background-image: url("images/Group\ 14.png");
     background-size: 100%;
-    /* padding: 148px 309px 148px 244px; */
     padding: 5rem 9rem 10rem 9rem;
-    /* align-items: center; */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
 }
 
 .play-like {
@@ -131,8 +125,8 @@ span {
 }
 
 .home-play {
-    height: 670px;
-    width: 710px;
+    height: 590px;
+    width: 700px;
 }
 
 
